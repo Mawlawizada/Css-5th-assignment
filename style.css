@@ -1,0 +1,105 @@
+body{
+    background-image: url(images/backround.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: #0c2461;
+    padding: 10px 20px;
+    /* display: flex; */
+}
+img{
+   max-width: 70px;
+   height: auto;
+   float: left;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    /* display: flex; */
+}
+nav li{
+    display: inline;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: aquamarine;
+}
+.buttons button{
+    margin-left: 10px;
+    margin-top: -30px;
+    padding: 8px;
+    color:darkslategrey;
+    border: none;
+    cursor: pointer;
+    display: inline;
+    float: right;
+}
+.buttons button:hover{
+    color:red ;
+}
+.contain{
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    color: blue;
+    font-size:x-large ;
+}
+.center{
+    max-width: 200px;
+    padding: auto;
+}
+.center{
+    margin-left: 680px;
+}
+p{
+    margin: 40px; 
+    clear: both;
+    padding-top: 10px;
+}
+.video{
+    /* display: block; */
+    margin-left: 600px;
+    margin-top: -100px;
+    max-width: 30%;
+}
+.footer{
+    /* height: 50px; */
+    background-color: #0c2461;
+    /* margin-bottom: 20px; */
+    padding-bottom: 20px;
+}
+.link{
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding-top: 5px;
+}
+ .fonts{
+font-size: 20px;
+color: white;
+padding-top: 7px;
+text-align: center;
+}
+i{
+    color: white;
+}
+span{
+   float: right;
+   color: white;
+   margin-top: -30px;
+   margin-right: 20px;
+}
